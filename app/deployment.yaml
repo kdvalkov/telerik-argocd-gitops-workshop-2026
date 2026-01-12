@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.26
+        image: nginx:1.26-s4upen
         ports:
         - containerPort: 80
         resources:
